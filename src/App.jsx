@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center">
+    <div className="w-screen min-h-screen p-4 flex items-center justify-center">
       <Outlet />
     </div>
   );
